@@ -1181,7 +1181,8 @@ impl<'a, W: Write> Writer<'a, W> {
             Statement::Emit(ref range) => {
                 for handle in range.clone() {
                     let min_ref_count = ctx.expressions[handle].bake_ref_count();
-                    if min_ref_count <= ctx.info[handle].ref_count {
+                    let may_vary = ctx.info[handle].may_vary;
+                    if (min_ref_count <= ctx.info[handle].ref_count) | may_vary {
                         write!(self.out, "{}", INDENT.repeat(indent))?;
                         match ctx.info[handle].ty {
                             TypeResolution::Handle(ty_handle) => {

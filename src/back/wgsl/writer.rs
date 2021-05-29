@@ -571,13 +571,16 @@ impl<W: Write> Writer<W> {
             Statement::Emit(ref range) => {
                 for handle in range.clone() {
                     let expr = &func_ctx.expressions[handle];
+
                     let min_ref_count = expr.bake_ref_count();
+                    let may_vary = &func_ctx.info[handle].may_vary;
+
                     // Forcefully creating baking expressions in some cases to help with readability
                     let required_baking_expr = match *expr {
                         Expression::ImageLoad { .. }
                         | Expression::ImageQuery { .. }
                         | Expression::ImageSample { .. } => true,
-                        _ => false,
+                        _ => *may_vary,
                     };
                     if min_ref_count <= func_ctx.info[handle].ref_count || required_baking_expr {
                         write!(self.out, "{}", INDENT.repeat(indent))?;

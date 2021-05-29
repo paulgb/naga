@@ -1,0 +1,16 @@
+#include <metal_stdlib>
+#include <simd/simd.h>
+
+struct IOData {
+    float data;
+};
+
+kernel void main1(
+  device IOData& v_data [[user(fake0)]]
+) {
+    float a = 0.0;
+    float _e3 = a;
+    a = 1.0;
+    v_data.data = _e3;
+    return;
+}

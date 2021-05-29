@@ -34,6 +34,7 @@
                         base: 3,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -45,6 +46,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -59,6 +61,7 @@
                         base: 1,
                         class: Function,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -73,6 +76,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -87,6 +91,7 @@
                         base: 1,
                         class: Function,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -98,6 +103,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -112,6 +118,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -126,6 +133,7 @@
                         kind: Bool,
                         width: 1,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -137,6 +145,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -151,6 +160,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -162,6 +172,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -176,6 +187,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -190,6 +202,7 @@
                         kind: Bool,
                         width: 1,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -201,6 +214,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -215,6 +229,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -226,6 +241,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -240,6 +256,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -251,6 +268,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -262,6 +280,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -276,6 +295,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -287,6 +307,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -298,6 +319,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -312,6 +334,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -323,6 +346,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -334,6 +358,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: true,
                 ),
             ],
         ),
@@ -373,6 +398,7 @@
                         base: 3,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -384,6 +410,7 @@
                     ref_count: 2,
                     assignable_global: None,
                     ty: Handle(4),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -398,6 +425,7 @@
                         base: 2,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -412,6 +440,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -426,6 +455,7 @@
                         base: 1,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -440,6 +470,7 @@
                         base: 2,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -454,6 +485,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -468,6 +500,7 @@
                         base: 1,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -479,6 +512,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -490,6 +524,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: false,
                 ),
             ],
         ),

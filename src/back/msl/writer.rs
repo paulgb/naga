@@ -1308,7 +1308,10 @@ impl<W: Write> Writer<W> {
                     for handle in range.clone() {
                         let min_ref_count =
                             context.expression.function.expressions[handle].bake_ref_count();
-                        if min_ref_count <= context.expression.info[handle].ref_count {
+
+                        let may_vary = &context.expression.info[handle].may_vary;
+
+                        if (min_ref_count <= context.expression.info[handle].ref_count) | may_vary {
                             write!(self.out, "{}", level)?;
                             self.start_baking_expression(handle, &context.expression)?;
                             self.put_expression(handle, &context.expression, true)?;

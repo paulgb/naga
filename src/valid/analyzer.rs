@@ -7,10 +7,7 @@ Figures out the following properties:
 !*/
 
 use super::{CallError, ExpressionError, FunctionError, ModuleInfo, ShaderStages, ValidationFlags};
-use crate::{
-    arena::{Arena, Handle},
-    proc::{ResolveContext, TypeResolution},
-};
+use crate::{arena::{Arena, Handle}, proc::{ResolveContext, TypeResolution}};
 use std::ops;
 
 pub type NonUniformResult = Option<Handle<crate::Expression>>;
@@ -142,6 +139,7 @@ pub struct ExpressionInfo {
     pub ref_count: usize,
     assignable_global: Option<Handle<crate::GlobalVariable>>,
     pub ty: TypeResolution,
+    pub may_vary: bool,
 }
 
 impl ExpressionInfo {
@@ -155,6 +153,7 @@ impl ExpressionInfo {
                 kind: crate::ScalarKind::Bool,
                 width: 0,
             }),
+            may_vary: false,
         }
     }
 }
@@ -304,6 +303,7 @@ impl FunctionInfo {
         use crate::{Expression as E, SampleLevel as Sl};
 
         let mut assignable_global = None;
+        let mut may_vary = false;
         let uniformity = match *expression {
             E::Access { base, index } => Uniformity {
                 non_uniform_result: self
@@ -384,10 +384,18 @@ impl FunctionInfo {
                 non_uniform_result: Some(handle),
                 requirements: UniformityRequirements::empty(),
             },
-            E::Load { pointer } => Uniformity {
-                non_uniform_result: self.add_ref(pointer),
-                requirements: UniformityRequirements::empty(),
-            },
+            E::Load { pointer } => {
+                may_vary = match expression_arena[pointer] {
+                    crate::Expression::GlobalVariable(_) => true,
+                    crate::Expression::LocalVariable(_) => true,
+                    _ => false
+                };
+
+                Uniformity {
+                    non_uniform_result: self.add_ref(pointer),
+                    requirements: UniformityRequirements::empty(),
+                }
+            }
             E::ImageSample {
                 image,
                 sampler,
@@ -518,6 +526,7 @@ impl FunctionInfo {
             ref_count: 0,
             assignable_global,
             ty,
+            may_vary,
         };
         Ok(())
     }

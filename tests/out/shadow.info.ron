@@ -57,6 +57,7 @@
                         base: 14,
                         class: Uniform,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -71,6 +72,7 @@
                         base: 2,
                         class: Private,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -85,6 +87,7 @@
                         base: 4,
                         class: Private,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -96,6 +99,7 @@
                     ref_count: 1,
                     assignable_global: Some(1),
                     ty: Handle(56),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -107,6 +111,7 @@
                     ref_count: 1,
                     assignable_global: Some(2),
                     ty: Handle(57),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -121,6 +126,7 @@
                         base: 21,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -135,6 +141,7 @@
                         base: 4,
                         class: Private,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -149,6 +156,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -163,6 +171,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -177,6 +186,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -191,6 +201,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -205,6 +216,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -219,6 +231,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -233,6 +246,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -247,6 +261,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -261,6 +276,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -275,6 +291,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -289,6 +306,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -303,6 +321,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -317,6 +336,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -331,6 +351,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -345,6 +366,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -359,6 +381,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -373,6 +396,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -387,6 +411,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -401,6 +426,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -415,6 +441,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -429,6 +456,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -443,6 +471,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -457,6 +486,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -471,6 +501,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -485,6 +516,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -499,6 +531,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -513,6 +546,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -527,6 +561,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -541,6 +576,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -555,6 +591,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -569,6 +606,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -583,6 +621,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -597,6 +636,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -611,6 +651,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -625,6 +666,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -639,6 +681,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -653,6 +696,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -664,6 +708,7 @@
                     ref_count: 0,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -678,6 +723,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -689,6 +735,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(3),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -700,6 +747,7 @@
                     ref_count: 6,
                     assignable_global: None,
                     ty: Handle(4),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -714,6 +762,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -728,6 +777,7 @@
                         kind: Bool,
                         width: 1,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -742,6 +792,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -756,6 +807,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -767,6 +819,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(9),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -778,6 +831,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(9),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -789,6 +843,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(9),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -803,6 +858,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -817,6 +873,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -828,6 +885,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(9),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -843,6 +901,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -854,6 +913,7 @@
                     ref_count: 2,
                     assignable_global: None,
                     ty: Handle(9),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -868,6 +928,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -882,6 +943,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -896,6 +958,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -910,6 +973,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -921,6 +985,7 @@
                     ref_count: 3,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -935,6 +1000,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -949,6 +1015,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -963,6 +1030,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -977,6 +1045,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -991,6 +1060,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1005,6 +1075,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1016,6 +1087,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(6),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1030,6 +1102,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1044,6 +1117,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1058,6 +1132,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
             ],
         ),
@@ -1118,6 +1193,7 @@
                         base: 14,
                         class: Uniform,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1132,6 +1208,7 @@
                         base: 2,
                         class: Private,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1146,6 +1223,7 @@
                         base: 4,
                         class: Private,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1157,6 +1235,7 @@
                     ref_count: 0,
                     assignable_global: Some(1),
                     ty: Handle(56),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1168,6 +1247,7 @@
                     ref_count: 0,
                     assignable_global: Some(2),
                     ty: Handle(57),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1182,6 +1262,7 @@
                         base: 21,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1196,6 +1277,7 @@
                         base: 4,
                         class: Private,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1210,6 +1292,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1224,6 +1307,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1238,6 +1322,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1252,6 +1337,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1266,6 +1352,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1280,6 +1367,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1294,6 +1382,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1308,6 +1397,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1322,6 +1412,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1336,6 +1427,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1350,6 +1442,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1364,6 +1457,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1378,6 +1472,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1392,48 +1487,7 @@
                         kind: Sint,
                         width: 4,
                     )),
-                ),
-                (
-                    uniformity: (
-                        non_uniform_result: None,
-                        requirements: (
-                            bits: 0,
-                        ),
-                    ),
-                    ref_count: 0,
-                    assignable_global: None,
-                    ty: Value(Scalar(
-                        kind: Float,
-                        width: 4,
-                    )),
-                ),
-                (
-                    uniformity: (
-                        non_uniform_result: None,
-                        requirements: (
-                            bits: 0,
-                        ),
-                    ),
-                    ref_count: 1,
-                    assignable_global: None,
-                    ty: Value(Scalar(
-                        kind: Sint,
-                        width: 4,
-                    )),
-                ),
-                (
-                    uniformity: (
-                        non_uniform_result: None,
-                        requirements: (
-                            bits: 0,
-                        ),
-                    ),
-                    ref_count: 0,
-                    assignable_global: None,
-                    ty: Value(Scalar(
-                        kind: Sint,
-                        width: 4,
-                    )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1448,20 +1502,7 @@
                         kind: Float,
                         width: 4,
                     )),
-                ),
-                (
-                    uniformity: (
-                        non_uniform_result: None,
-                        requirements: (
-                            bits: 0,
-                        ),
-                    ),
-                    ref_count: 0,
-                    assignable_global: None,
-                    ty: Value(Scalar(
-                        kind: Sint,
-                        width: 4,
-                    )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1476,6 +1517,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1490,6 +1532,22 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
+                ),
+                (
+                    uniformity: (
+                        non_uniform_result: None,
+                        requirements: (
+                            bits: 0,
+                        ),
+                    ),
+                    ref_count: 0,
+                    assignable_global: None,
+                    ty: Value(Scalar(
+                        kind: Float,
+                        width: 4,
+                    )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1504,6 +1562,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1518,6 +1577,52 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
+                ),
+                (
+                    uniformity: (
+                        non_uniform_result: None,
+                        requirements: (
+                            bits: 0,
+                        ),
+                    ),
+                    ref_count: 0,
+                    assignable_global: None,
+                    ty: Value(Scalar(
+                        kind: Sint,
+                        width: 4,
+                    )),
+                    may_vary: false,
+                ),
+                (
+                    uniformity: (
+                        non_uniform_result: None,
+                        requirements: (
+                            bits: 0,
+                        ),
+                    ),
+                    ref_count: 0,
+                    assignable_global: None,
+                    ty: Value(Scalar(
+                        kind: Sint,
+                        width: 4,
+                    )),
+                    may_vary: false,
+                ),
+                (
+                    uniformity: (
+                        non_uniform_result: None,
+                        requirements: (
+                            bits: 0,
+                        ),
+                    ),
+                    ref_count: 1,
+                    assignable_global: None,
+                    ty: Value(Scalar(
+                        kind: Sint,
+                        width: 4,
+                    )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1532,6 +1637,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1546,6 +1652,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1560,6 +1667,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1574,6 +1682,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1588,6 +1697,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1602,6 +1712,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1616,6 +1727,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1630,6 +1742,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1644,6 +1757,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1658,6 +1772,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1672,6 +1787,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1686,6 +1802,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1700,6 +1817,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1714,6 +1832,7 @@
                         kind: Sint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1725,6 +1844,7 @@
                     ref_count: 0,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1739,6 +1859,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1753,6 +1874,7 @@
                         base: 2,
                         class: Function,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1767,6 +1889,7 @@
                         base: 3,
                         class: Function,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1778,6 +1901,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(3),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -1792,6 +1916,7 @@
                         base: 13,
                         class: Uniform,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1808,6 +1933,7 @@
                         width: 4,
                         class: Uniform,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1822,6 +1948,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1836,6 +1963,7 @@
                         kind: Uint,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1850,6 +1978,7 @@
                         kind: Bool,
                         width: 1,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1861,6 +1990,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -1872,6 +2002,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(3),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -1886,6 +2017,7 @@
                         base: 20,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1897,6 +2029,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(3),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -1911,6 +2044,7 @@
                         base: 19,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1925,6 +2059,7 @@
                         base: 18,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1936,6 +2071,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(18),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1947,6 +2083,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(4),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -1962,6 +2099,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1973,6 +2111,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(1),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -1984,6 +2123,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -1995,6 +2135,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2009,6 +2150,7 @@
                         base: 20,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2020,6 +2162,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(3),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -2034,6 +2177,7 @@
                         base: 19,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2048,6 +2192,7 @@
                         base: 4,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2064,6 +2209,7 @@
                         width: 4,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2078,6 +2224,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2092,6 +2239,7 @@
                         base: 20,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2103,6 +2251,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(3),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -2117,6 +2266,7 @@
                         base: 19,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2131,6 +2281,7 @@
                         base: 4,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2147,6 +2298,7 @@
                         width: 4,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2161,6 +2313,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2175,6 +2328,7 @@
                         base: 20,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2186,6 +2340,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(3),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -2200,6 +2355,7 @@
                         base: 19,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2214,6 +2370,7 @@
                         base: 4,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2230,6 +2387,7 @@
                         width: 4,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2244,6 +2402,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2255,6 +2414,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2271,6 +2431,7 @@
                         width: 4,
                         class: Private,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2285,36 +2446,7 @@
                         kind: Float,
                         width: 4,
                     )),
-                ),
-                (
-                    uniformity: (
-                        non_uniform_result: Some(3),
-                        requirements: (
-                            bits: 0,
-                        ),
-                    ),
-                    ref_count: 1,
-                    assignable_global: Some(5),
-                    ty: Value(ValuePointer(
-                        size: None,
-                        kind: Float,
-                        width: 4,
-                        class: Private,
-                    )),
-                ),
-                (
-                    uniformity: (
-                        non_uniform_result: Some(3),
-                        requirements: (
-                            bits: 0,
-                        ),
-                    ),
-                    ref_count: 1,
-                    assignable_global: None,
-                    ty: Value(Scalar(
-                        kind: Float,
-                        width: 4,
-                    )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2331,6 +2463,7 @@
                         width: 4,
                         class: Private,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2345,6 +2478,39 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
+                ),
+                (
+                    uniformity: (
+                        non_uniform_result: Some(3),
+                        requirements: (
+                            bits: 0,
+                        ),
+                    ),
+                    ref_count: 1,
+                    assignable_global: Some(5),
+                    ty: Value(ValuePointer(
+                        size: None,
+                        kind: Float,
+                        width: 4,
+                        class: Private,
+                    )),
+                    may_vary: false,
+                ),
+                (
+                    uniformity: (
+                        non_uniform_result: Some(3),
+                        requirements: (
+                            bits: 0,
+                        ),
+                    ),
+                    ref_count: 1,
+                    assignable_global: None,
+                    ty: Value(Scalar(
+                        kind: Float,
+                        width: 4,
+                    )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2356,6 +2522,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2367,6 +2534,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2378,6 +2546,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2392,6 +2561,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2406,6 +2576,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2420,6 +2591,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2434,6 +2606,7 @@
                         base: 20,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2445,6 +2618,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(3),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -2459,6 +2633,7 @@
                         base: 19,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2473,6 +2648,7 @@
                         base: 4,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2489,6 +2665,7 @@
                         width: 4,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2503,6 +2680,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2517,6 +2695,7 @@
                         base: 20,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2528,6 +2707,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(3),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -2542,6 +2722,7 @@
                         base: 19,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2556,6 +2737,7 @@
                         base: 4,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2572,6 +2754,7 @@
                         width: 4,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2586,6 +2769,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2600,6 +2784,7 @@
                         base: 20,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2611,6 +2796,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(3),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -2625,6 +2811,7 @@
                         base: 19,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2639,6 +2826,7 @@
                         base: 4,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2655,6 +2843,7 @@
                         width: 4,
                         class: Storage,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2669,6 +2858,7 @@
                         kind: Float,
                         width: 4,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2680,6 +2870,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2691,6 +2882,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2702,6 +2894,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2713,6 +2906,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(3),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -2724,6 +2918,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(3),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2735,6 +2930,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: true,
                 ),
                 (
                     uniformity: (
@@ -2746,6 +2942,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(4),
+                    may_vary: false,
                 ),
             ],
         ),
@@ -2805,6 +3002,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(2),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2819,6 +3017,7 @@
                         base: 2,
                         class: Private,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2830,6 +3029,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(4),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2844,6 +3044,7 @@
                         base: 4,
                         class: Private,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2858,6 +3059,7 @@
                         base: 4,
                         class: Private,
                     )),
+                    may_vary: false,
                 ),
                 (
                     uniformity: (
@@ -2869,6 +3071,7 @@
                     ref_count: 1,
                     assignable_global: None,
                     ty: Handle(4),
+                    may_vary: true,
                 ),
             ],
         ),

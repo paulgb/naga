@@ -291,6 +291,10 @@ fn convert_wgsl() {
             "standard",
             Targets::SPIRV | Targets::METAL | Targets::GLSL | Targets::WGSL,
         ),
+        (
+            "baked-load",
+            Targets::SPIRV | Targets::METAL | Targets::GLSL | Targets::WGSL,
+        ),
         //TODO: GLSL https://github.com/gfx-rs/naga/issues/874
         ("interface", Targets::SPIRV | Targets::METAL | Targets::WGSL),
     ];
